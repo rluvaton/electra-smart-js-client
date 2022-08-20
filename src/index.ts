@@ -1,5 +1,12 @@
-export default function sum(a, b) {
-  return a + b;
+import { Client } from './electra/client';
+
+if (require.main === module) {
+  // This means that we are running this script directly from the command line
+  // https://nodejs.org/docs/latest/api/modules.html#accessing-the-main-module
+  Client.auth().then((client) => {
+    console.log(client.getAuthData());
+  });
 }
 
-console.log('sum(1, 2) =', sum(1, 2));
+// Exporting this so it can be used as a module
+export { Client };

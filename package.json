@@ -1,5 +1,5 @@
 {
-  "name": "node-boilerplate",
+  "name": "electra-smart-js-client",
   "version": "0.0.0-development",
   "description": "NodeJS boilerplate with TypeScript, Jest, ESLint, Prettier, Husky, CommitLint, CI in GitHub Action",
   "keywords": [
@@ -46,5 +46,8 @@
     "ts-jest": "^27.1.2",
     "ts-node": "^10.4.0",
     "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
   }
 }
