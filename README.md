@@ -8,9 +8,8 @@ Port of [`yonatanp/electrasmart`](https://github.com/yonatanp/electrasmart) in J
 **Get the authentication data**
 
 ```bash
-npm i -g electra-smart-js-client
+npx electra-smart-js-client
 
-electra-smart-js-client
 # This will log { "imei": "<imei>", "token": "<token>" }
 # Save it for later use
 ```
