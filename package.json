@@ -3,21 +3,17 @@
   "version": "0.0.0-development",
   "description": "Electra Smart JS Client",
   "files": [
-    "dist"
+    "lib"
   ],
   "bin": {
-    "electra-smart-js-client": "./dist/index.js"
+    "electra-smart-js-client": "./lib/index.js"
   },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
     "prepare": "husky install",
-    "build": "tsc -p tsconfig.build.json",
-    "clean": "rimraf lib",
+    "build": "rm -rf lib && tsc -p tsconfig.build.json",
     "start": "ts-node src/index.ts",
-    "coverage": "jest --coverage",
-    "test": "jest --passWithNoTests",
-    "watch": "jest --watch",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "eslint \"src/**/*.ts\" --fix",
     "semantic-release": "semantic-release"

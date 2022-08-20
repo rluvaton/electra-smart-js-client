@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { Client } from './electra/client';
 
 if (require.main === module) {
