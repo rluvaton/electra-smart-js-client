@@ -1,19 +1,20 @@
 {
   "name": "electra-smart-js-client",
   "version": "0.0.0-development",
-  "description": "NodeJS boilerplate with TypeScript, Jest, ESLint, Prettier, Husky, CommitLint, CI in GitHub Action",
+  "description": "Electra Smart JS Client",
   "keywords": [
-    "boilerplate",
-    "prettier",
-    "eslint",
-    "husky",
-    "commitlint",
-    "typescript",
-    "jest"
+    "electra",
+    "smart",
+    "ac",
+    "air conditioning",
+    "IOT"
   ],
   "files": [
-    "lib"
+    "dist"
   ],
+  "bin": {
+    "electra-smart-js-client": "./dist/index.js"
+  },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
@@ -49,5 +50,15 @@
   },
   "dependencies": {
     "axios": "^0.27.2"
+  },
+  "author": "Raz Luvaton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rluvaton/electra-smart-js-client/issues"
+  },
+  "homepage": "https://github.com/rluvaton/electra-smart-js-client#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rluvaton/electra-smart-js-client.git"
   }
 }
