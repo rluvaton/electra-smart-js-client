@@ -1,5 +1,5 @@
 # Electra Smart JS client
-![npm](https://img.shields.io/npm/v/electra-smart-js-client?style=plastic)
+[![npm](https://img.shields.io/npm/v/electra-smart-js-client?style=plastic)](https://www.npmjs.com/package/electra-smart-js-client)
 
 Port of [`yonatanp/electrasmart`](https://github.com/yonatanp/electrasmart) in JS
 
